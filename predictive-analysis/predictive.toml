@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Adults_Income_Level_Analysis"
+authors = [{name = "Manoj Kumar Singade", email = "msingade@mail.yu.edu"}]
+version = "0.1.0"
+description = "Performing EDA,With Researched Questions done predictive model, Cross-Validation and Scikit-Learn Pipeline"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.7.1",
+    "numpy>=1.24.3",
+    "pandas>=1.5.3",
+    "seaborn>=0.12.2",
+    "scikit-learn">=0.24.2,"
+]
+
+
+[project.urls]
+homepage = "https://github.com/Manojkumar8899/Predictive-analysis-project-4"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
