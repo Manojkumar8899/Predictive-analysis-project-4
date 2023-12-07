@@ -21,6 +21,7 @@ dependencies = [
 
 [project.urls]
 homepage = "https://github.com/Manojkumar8899/Predictive-analysis-project-4"
+repository = "https://github.com/Manojkumar8899/Predictive-analysis-project-4/tree/main/predictive-analysis"
 
 
 [tool.setuptools.packages.find]
